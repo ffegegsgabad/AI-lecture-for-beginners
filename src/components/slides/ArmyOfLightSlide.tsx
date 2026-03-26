@@ -1,0 +1,23 @@
+import qrCodeExercitoLuz from "@/assets/qr-code-exercito-luz.jpeg";
+
+export const ArmyOfLightSlide = () => {
+  return (
+    <div className="w-full h-full bg-background flex items-center justify-center p-12">
+      <div className="max-w-4xl space-y-12 text-center">
+        <h2 className="text-5xl lg:text-6xl font-serif font-bold text-foreground leading-tight">
+          Faça parte do nosso Exército de Luz
+        </h2>
+        
+        <div className="flex justify-center">
+          <div className="bg-white p-8 rounded-2xl shadow-lg">
+            <img 
+              src={qrCodeExercitoLuz} 
+              alt="QR Code do Exército de Luz" 
+              className="w-full max-w-md h-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
