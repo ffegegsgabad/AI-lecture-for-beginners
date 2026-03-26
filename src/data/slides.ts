@@ -5,14 +5,6 @@ import { WhatIsAISlide } from "@/components/slides/WhatIsAISlide";
 import { DataExplosionSlide } from "@/components/slides/DataExplosionSlide";
 import { IntroExplainingSlide } from "@/components/slides/IntroExplainingSlide";
 import { ExplainingAISlide } from "@/components/slides/ExplainingAISlide";
-import { IntroToolsSlide } from "@/components/slides/IntroToolsSlide";
-import { Tool1Slide } from "@/components/slides/Tool1Slide";
-import { Tool2Slide } from "@/components/slides/Tool2Slide";
-import { Tool3Slide } from "@/components/slides/Tool3Slide";
-import { Tool4Slide } from "@/components/slides/Tool4Slide";
-import { Tool5Slide } from "@/components/slides/Tool5Slide";
-import { Tool6Slide } from "@/components/slides/Tool6Slide";
-import { Tool7Slide } from "@/components/slides/Tool7Slide";
 import { WhyAIMattersSlide } from "@/components/slides/WhyAIMattersSlide";
 import { ChatGPTIntroSlide } from "@/components/slides/ChatGPTIntroSlide";
 import { ChatGPTStep0Slide } from "@/components/slides/ChatGPTStep0Slide";
@@ -58,46 +50,6 @@ export const slides: Slide[] = [
     id: "explaining-ai",
     title: "Estagiário Superdotado",
     component: ExplainingAISlide,
-  },
-  {
-    id: "intro-tools",
-    title: "7 Ferramentas",
-    component: IntroToolsSlide,
-  },
-  {
-    id: "tool-1",
-    title: "Ferramenta #1 - Perplexity",
-    component: Tool1Slide,
-  },
-  {
-    id: "tool-2",
-    title: "Ferramenta #2 - TL;DV",
-    component: Tool2Slide,
-  },
-  {
-    id: "tool-3",
-    title: "Ferramenta #3 - Gamma",
-    component: Tool3Slide,
-  },
-  {
-    id: "tool-4",
-    title: "Ferramenta #4 - Opus Clip",
-    component: Tool4Slide,
-  },
-  {
-    id: "tool-5",
-    title: "Ferramenta #5 - NotebookLM",
-    component: Tool5Slide,
-  },
-  {
-    id: "tool-6",
-    title: "Ferramenta #6 - YouTube Summarize",
-    component: Tool6Slide,
-  },
-  {
-    id: "tool-7",
-    title: "Ferramenta #7 - Navegador Comet",
-    component: Tool7Slide,
   },
   {
     id: "why-matters",
