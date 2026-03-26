@@ -78,6 +78,11 @@ export const slides: Slide[] = [
     component: ChatGPTStep2Slide,
   },
   {
+    id: "practice",
+    title: "Vamos para a Prática",
+    component: PracticeSlide,
+  },
+  {
     id: "takeaway",
     title: "Resumo Final",
     component: TakeawaySlide,
