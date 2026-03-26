@@ -10,6 +10,7 @@ import { ChatGPTIntroSlide } from "@/components/slides/ChatGPTIntroSlide";
 import { ChatGPTStep0Slide } from "@/components/slides/ChatGPTStep0Slide";
 import { ChatGPTStep1Slide } from "@/components/slides/ChatGPTStep1Slide";
 import { ChatGPTStep2Slide } from "@/components/slides/ChatGPTStep2Slide";
+import { PracticeSlide } from "@/components/slides/PracticeSlide";
 import { TakeawaySlide } from "@/components/slides/TakeawaySlide";
 
 
