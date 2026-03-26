@@ -10,7 +10,7 @@ export const TakeawaySlide = () => {
     {
       icon: Zap,
       title: "Comece Pequeno",
-      description: "Escolha UMA ferramenta hoje e aplique no seu trabalho esta semana.",
+      description: "Escolha UMA tarefa hoje e aplique no seu trabalho esta semana.",
     },
     {
       icon: Target,
