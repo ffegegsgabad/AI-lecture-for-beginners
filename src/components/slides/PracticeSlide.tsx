@@ -1,4 +1,4 @@
-import { Rocket, MessageSquare, Bot } from "lucide-react";
+import { Rocket } from "lucide-react";
 
 export const PracticeSlide = () => {
   return (
@@ -23,37 +23,6 @@ export const PracticeSlide = () => {
           Chega de teoria — agora é com vocês! 🚀
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-          <div className="p-6 bg-card border border-border rounded-xl space-y-3 hover:border-primary/40 transition-colors">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
-              <MessageSquare className="h-6 w-6 text-primary" />
-            </div>
-            <h3 className="text-lg font-bold text-foreground">ChatGPT ao Vivo</h3>
-            <p className="text-sm text-muted-foreground">
-              Vamos explorar a ferramenta juntos na tela
-            </p>
-          </div>
-
-          <div className="p-6 bg-card border border-border rounded-xl space-y-3 hover:border-primary/40 transition-colors">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
-              <Bot className="h-6 w-6 text-primary" />
-            </div>
-            <h3 className="text-lg font-bold text-foreground">Agente IA</h3>
-            <p className="text-sm text-muted-foreground">
-              Conheçam um Agente IA em ação — automação inteligente na prática
-            </p>
-          </div>
-
-          <div className="p-6 bg-card border border-border rounded-xl space-y-3 hover:border-primary/40 transition-colors">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
-              <Rocket className="h-6 w-6 text-primary" />
-            </div>
-            <h3 className="text-lg font-bold text-foreground">Sua Vez!</h3>
-            <p className="text-sm text-muted-foreground">
-              Usem o <strong>Prompt Inteligente</strong> no Agente e vejam o resultado
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
