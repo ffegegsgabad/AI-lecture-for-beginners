@@ -19,7 +19,7 @@ export const PracticeSlide = () => {
         </h2>
 
         <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-          Chega de teoria — agora é com vocês! 🚀
+          Chega de slides — deixa eu te mostrar na prática! 🚀
         </p>
       </div>
     </div>
