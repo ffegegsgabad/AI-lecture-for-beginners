@@ -22,7 +22,7 @@ export const ExplainingAISlide = () => {
           </div>
           
           <p className="text-2xl lg:text-3xl font-semibold text-foreground leading-relaxed pt-4">
-            Nosso trabalho é aprender a ser o <span className="text-primary">líder</span> desse estagiário superdotado
+            Nosso trabalho é aprender a ser o <span className="text-primary">líder</span> desse assistente superdotado
           </p>
         </div>
       </div>
