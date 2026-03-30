@@ -49,7 +49,7 @@ export const slides: Slide[] = [
   },
   {
     id: "explaining-ai",
-    title: "Estagiário Superdotado",
+    title: "Assistente Superdotado",
     component: ExplainingAISlide,
   },
   {
