@@ -5,7 +5,7 @@ export const ExplainingAISlide = () => {
         <div className="space-y-10">
           <div className="p-10 bg-card border-2 border-border rounded-lg">
             <h3 className="text-3xl lg:text-4xl font-serif font-bold text-primary mb-6">
-              A IA é como um estagiário superdotado
+              A IA é como um assistente superdotado
             </h3>
             <div className="space-y-4 text-xl text-muted-foreground leading-relaxed">
               <p>✓ Nunca cansa</p>
